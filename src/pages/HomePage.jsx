@@ -67,7 +67,7 @@ const HomePage = () => {
   return (
     <>
       {isLoading && <Loader />}
-      {error && toast.error("Something went wrong! Try again later")}
+      {error && toast.error("Error fetching events! Try again later")}
 
       {currentItems.length && (
         <>
